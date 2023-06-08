@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #scatterplot {
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .dot {
+    fill: #cb34d0;
+    stroke: #fff;
+  }
+  
+  .tooltip {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: opacity 0.3s ease;
+  }
