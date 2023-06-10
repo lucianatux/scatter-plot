@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
   }
+
+  svg{
+    background-color: rgb(205, 198, 189);
+  }
   
   #title {
     text-align: center;
@@ -28,3 +32,10 @@ body {
     font-size: 12px;
     transition: opacity 0.3s ease;
   }
+
+  
+@media (max-width: 600px) {
+  #title {
+    font-size: 20px;
+  }
+}
